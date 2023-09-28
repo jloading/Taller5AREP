@@ -7,6 +7,7 @@ En este taller se profundizarán los conceptos de modulación por medio de virtu
 - Java: Es un lenguaje de programación de propósito general orientado a objetos, portátil y muy versátil.
 - Maven: Es una herramienta que maneja el ciclo de vida del programa.
 - Git: Es un sistema de control de versiones distribuido (VCS).
+- Docker: Es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software.
 
 ### Instalación
 
@@ -116,6 +117,7 @@ docker push jloading9/taller5arep:latest
 * Maven: Es una herramienta que estandariza la configuración del ciclo de vida del proyecto.
 * HTML: Es un lenguaje de marcado que estructura una página web y su contenido.
 * JavaScript: Lenguaje de programación que los desarrolladores utilizan para hacer paginas web dinamicas.
+* Docker: Es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de virtualización de aplicaciones en múltiples sistemas operativos.
 
 ## Autor
 
