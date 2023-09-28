@@ -51,9 +51,19 @@ http://localhost:4567/operaciones
 ```
 
 ### * Desde Docker:
+Ingresa el comando en su terminal
 
+```
+docker run -d -p 34000:6000 --name taller5arep jloading9/taller5arep
+```
 
+<img width="624" alt="Captura de pantalla 2023-09-27 a la(s) 10 09 48 p m" src="https://github.com/jloading/Taller5AREP/assets/65261708/aaa07c78-3710-4624-aa5f-fab1593fe276">
 
+Posteriormente ingresa a la siguiente dirección
+
+```
+http://localhost:34000/operaciones
+```
 ## Corriendo las pruebas
 
 
