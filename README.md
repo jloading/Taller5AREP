@@ -1,6 +1,6 @@
-# TALLER 4: TALLER DE ARQUITECTURAS DE SERVIDORES DE APLICACIONES, META PROTOCOLOS DE OBJETOS, PATRON IOC, REFLEXION
+# TALLER 5: MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
 
-Programa creado para simular el microframework Spring a traves de reflexiónes que ofrece Java.
+En este taller se profundizarán los conceptos de modulación por medio de virtualización usando Docker y AWS.
 
 ### Prerrequisitos
 
@@ -24,6 +24,8 @@ mvn package
 
 ### Corriendo la aplicación
 
+### * En su máquina:
+
 Se corren los comandos
 ```
 mvn clean package install
@@ -33,44 +35,23 @@ mvn clean install
 Se corre el servidor con el comando
 #### Para Mac:
 ```
-java -cp target/classes edu.escuelaing.HttpServer
+java -cp "target/classes:target/dependency/*" org.example.SparkWebServer
 ```
 
 #### Para Windows:
 ```
-java -cp target\classes edu.escuelaing.HttpServer
+java -cp "target\classes:target\dependency\*" org.example.SparkWebServer
+
 ```
 
 Para finalizar, se accede a la siguiente dirección desde el navegador
 
 ```
-http://localhost:35000/
+http://localhost:4567/operaciones
 ```
 
 ## Corriendo las pruebas
-Anotaciones @GetMapping:
 
-<img width="382" alt="Captura de pantalla 2023-09-21 a la(s) 11 33 38 p m" src="https://github.com/jloading/Taller4AREP/assets/65261708/e11c9e64-d4f1-4562-b4b9-a6f383aa861f">
-
-<img width="372" alt="Captura de pantalla 2023-09-21 a la(s) 11 33 11 p m" src="https://github.com/jloading/Taller4AREP/assets/65261708/94930f91-04f1-46f3-98e2-fb2b4757faa9">
-
-Anotaciones @RequestMapping:
-
-<img width="390" alt="Captura de pantalla 2023-09-21 a la(s) 11 34 21 p m" src="https://github.com/jloading/Taller4AREP/assets/65261708/f6a7a9af-9d82-404d-b81e-182c5b974ddd">
-
-<img width="365" alt="Captura de pantalla 2023-09-21 a la(s) 11 34 52 p m" src="https://github.com/jloading/Taller4AREP/assets/65261708/32d7edd4-b95f-45d6-a625-7ef54edabb62">
-
-Prueba de la aplicación funcionando con imágenes:
-
-<img width="1433" alt="Captura de pantalla 2023-09-21 a la(s) 11 35 41 p m" src="https://github.com/jloading/Taller4AREP/assets/65261708/ee53ba7a-1630-45a5-af3a-ed558e3cc13b">
-
-Prueba de la aplicación funcionando con HTML:
-
-<img width="435" alt="Captura de pantalla 2023-09-21 a la(s) 11 57 18 p m" src="https://github.com/jloading/Taller4AREP/assets/65261708/694d62f0-9c8c-48be-9789-4b2c2adff7cf">
-
-Aplicación de prueba en funcionamiento:
-
-<img width="569" alt="Captura de pantalla 2023-09-22 a la(s) 12 22 46 a m" src="https://github.com/jloading/Taller4AREP/assets/65261708/e3431369-22f4-449c-ba03-0c42dd0ee836">
 
 ## Qué se hizo
 Se creó una clase con los métodos necesarios para responder las solicitudes. Cada método tiene su respectiva etiqueta (@RequestMapping o @GetMapping)
