@@ -25,7 +25,7 @@ mvn package
 
 ### Corriendo la aplicación
 
-### * En su máquina:
+### * Usando Java:
 
 Se corren los comandos
 ```
@@ -51,7 +51,7 @@ Para finalizar, se accede a la siguiente dirección desde el navegador
 http://localhost:4567/operaciones
 ```
 
-### * Desde Docker:
+### * Usando Docker:
 Ingresa el comando en su terminal
 
 ```
