@@ -67,8 +67,24 @@ http://localhost:34000/operaciones
 ```
 ## Corriendo las pruebas
 
+Al ingresar a la dirección http://localhost:4567/operaciones (si lo corrió con Java) o http://localhost:34000/operaciones (si lo corrió con Docker) podremos encontrar la aplicación
+
+<img width="630" alt="Captura de pantalla 2023-09-27 a la(s) 10 21 51 p m" src="https://github.com/jloading/Taller5AREP/assets/65261708/7034c793-a7a8-4463-aad2-5a3a55015ef3">
+
+Podemos ver que la aplicación resuelve las operaciones correctamente
+
+<img width="589" alt="Captura de pantalla 2023-09-27 a la(s) 10 23 35 p m" src="https://github.com/jloading/Taller5AREP/assets/65261708/c6a32d4b-69d3-4d1f-8b01-aaa2cb7e2df9">
 
 ## Qué se hizo
+### Java
+Se creó la clase principal encargada de atender las peticiones que se hacen al servidor. Adicionalmente, implementa la lógica para efectuar las operaciones (seno, coseno, palíndromo, magnitud vector)
+
+<img width="834" alt="Captura de pantalla 2023-09-27 a la(s) 10 26 08 p m" src="https://github.com/jloading/Taller5AREP/assets/65261708/6ce31266-18c4-4de6-836d-575e9f2749c9">
+
+Se creó el cliente web encargado de proporcionar la interfaz para ingresar los valores (referirse a la clase para ver el código completo)
+
+<img width="1032" alt="Captura de pantalla 2023-09-27 a la(s) 10 27 03 p m" src="https://github.com/jloading/Taller5AREP/assets/65261708/24d1a984-b5cd-4755-a038-a93f94e25d87">
+
 
 ### Docker
 Se crea una imagen en Docker con el comando
