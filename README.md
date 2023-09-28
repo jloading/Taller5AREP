@@ -1,6 +1,6 @@
 # TALLER 5: MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER
 
-En este taller se profundizarán los conceptos de modulación por medio de virtualización usando Docker y AWS.
+En este taller se profundizarán los conceptos de modulación por medio de virtualización usando Docker.
 
 ### Prerrequisitos
 
@@ -52,7 +52,7 @@ http://localhost:4567/operaciones
 ```
 
 ### * Usando Docker:
-Ingresa el comando en su terminal
+Ingrese el comando en su terminal
 
 ```
 docker run -d -p 34000:6000 --name taller5arep jloading9/taller5arep
@@ -60,7 +60,7 @@ docker run -d -p 34000:6000 --name taller5arep jloading9/taller5arep
 
 <img width="624" alt="Captura de pantalla 2023-09-27 a la(s) 10 09 48 p m" src="https://github.com/jloading/Taller5AREP/assets/65261708/aaa07c78-3710-4624-aa5f-fab1593fe276">
 
-Posteriormente ingresa a la siguiente dirección
+Posteriormente ingrese a la siguiente dirección
 
 ```
 http://localhost:34000/operaciones
